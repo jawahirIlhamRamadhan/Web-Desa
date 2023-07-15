@@ -1,0 +1,678 @@
+<br />
+<b>Warning</b>:  include(../sesi.php): failed to open stream: No such file or directory in <b>C:\xampp\htdocs\app-suratdesa\data\datapenduduk.php</b> on line <b>2</b><br />
+<br />
+<b>Warning</b>:  include(): Failed opening '../sesi.php' for inclusion (include_path='C:\xampp\php\PEAR') in <b>C:\xampp\htdocs\app-suratdesa\data\datapenduduk.php</b> on line <b>2</b><br />
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Export Data Ke Excel</title>
+</head>
+<body>
+	<style type="text/css">
+	body{
+		font-family: sans-serif;
+	}
+	table{
+		margin: 20px auto;
+		border-collapse: collapse;
+	}
+	table th,
+	table td{
+		border: 1px solid #3c3c3c;
+		padding: 3px 8px;
+
+	}
+	a{
+		background: blue;
+		color: #fff;
+		padding: 8px 10px;
+		text-decoration: none;
+		border-radius: 2px;
+	}
+	.str { 
+		mso-number-format:\@; 
+	}
+	</style>
+
+ 
+	<center>
+		<h3>DATA PENDUDUK<br/>
+			
+	</center>
+
+	<table border="1">
+		<tr>			<th>No</th>
+                        <th>Nkk</th>
+                        <th>Nik</th>
+                        <th>Nama</th>
+                        <th>Jk</th>
+                        <th>Tmp. Lahir</th>
+                        <th>Tgl. Lahir</th>
+                        <th>Warga negara</th>
+                        <th>Agama</th>
+                        <th>Status</th>
+                        <th>Pend</th>
+                        <th>Kerjaan</th>
+                        <th>Prov</th>
+                        <th>Kab</th>
+                        <th>Kec</th>
+                        <th>Desa</th>
+                        <th>Dusun</th>
+                        <th>RT</th>
+                        <th>HP</th>
+                        <th>SHDK</th>
+                        <th>Foto</th>
+                        <th>Ket</th>
+                    </tr>
+				<tr>
+			<td>1</td>
+			<td class="str">1801082303085208</td>
+			<td class="str">1801081701690003</td>
+			<td>NURJEN</td>
+			<td>Laki-laki</td>
+			<td>TALANG PADANG</td>
+			<td class="str">17/01/1969</td>
+			<td>Indonesia</td>
+			<td>Islam</td>
+			<td>Kawin</td>
+			<td> SD</td>
+			<td>Petani/Pekebun</td>
+			<td>Banten</td>
+			<td>Tangerang</td>
+			<td>Cikupa</td>
+			<td>Bitung Jaya</td>
+			<td>Dusun Sinar Jaya</td>
+			<td>001/001</td>
+			<td class="str">00</td>
+			<td></td>
+			<td></td>
+			<td> -</td>
+			
+		</tr>
+				<tr>
+			<td>2</td>
+			<td class="str">1801082303085208</td>
+			<td class="str">1801236108730001</td>
+			<td>ARNIMAH</td>
+			<td>Perempuan</td>
+			<td>TELUK BETUNG</td>
+			<td class="str">21/08/1973</td>
+			<td>Indonesia</td>
+			<td>Islam</td>
+			<td>Kawin</td>
+			<td> SD</td>
+			<td>Mengurus Rumah Tangga</td>
+			<td>Banten</td>
+			<td>Tangerang</td>
+			<td>Cikupa</td>
+			<td>Bitung Jaya</td>
+			<td>Dusun Sinar Jaya</td>
+			<td>001/001</td>
+			<td class="str">00</td>
+			<td></td>
+			<td></td>
+			<td> -</td>
+			
+		</tr>
+				<tr>
+			<td>3</td>
+			<td class="str">1801082303085208</td>
+			<td class="str">1801232010050001</td>
+			<td>HAMDAN</td>
+			<td>Laki-laki</td>
+			<td>Bitung Jaya</td>
+			<td class="str">20/10/2005</td>
+			<td>Indonesia</td>
+			<td>Islam</td>
+			<td>Belum Kawin</td>
+			<td>SMA</td>
+			<td>Tidak/Belum Bekerja</td>
+			<td>Banten</td>
+			<td>Tangerang</td>
+			<td>Cikupa</td>
+			<td>Bitung Jaya</td>
+			<td>Dusun Sinar Jaya</td>
+			<td>001/001</td>
+			<td class="str">00</td>
+			<td></td>
+			<td></td>
+			<td> -</td>
+			
+		</tr>
+				<tr>
+			<td>4</td>
+			<td class="str">1801082303085206</td>
+			<td class="str">1801084211730001</td>
+			<td>FATIMAH</td>
+			<td>Perempuan</td>
+			<td>TALANG PADANG</td>
+			<td class="str">02/11/1973</td>
+			<td>Indonesia</td>
+			<td>Islam</td>
+			<td>Kawin</td>
+			<td>SD</td>
+			<td>Mengurus Rumah Tangga</td>
+			<td>Banten</td>
+			<td>Tangerang</td>
+			<td>Cikupa</td>
+			<td>Bitung Jaya</td>
+			<td>Dusun Sinar Jaya</td>
+			<td>001/001</td>
+			<td class="str">0</td>
+			<td></td>
+			<td></td>
+			<td> -</td>
+			
+		</tr>
+				<tr>
+			<td>5</td>
+			<td class="str">1801082303085206</td>
+			<td class="str">1801084202010002</td>
+			<td>NUR BAETI</td>
+			<td>Perempuan</td>
+			<td>Bitung Jaya</td>
+			<td class="str">02/02/2001</td>
+			<td>Indonesia</td>
+			<td>Islam</td>
+			<td>Belum Kawin</td>
+			<td>SMA</td>
+			<td>Pelancong</td>
+			<td>Banten</td>
+			<td>Tangerang</td>
+			<td>Cikupa</td>
+			<td>Bitung Jaya</td>
+			<td>Dusun Sinar Jaya</td>
+			<td>001/001</td>
+			<td class="str">0</td>
+			<td></td>
+			<td></td>
+			<td> -</td>
+			
+		</tr>
+				<tr>
+			<td>6</td>
+			<td class="str">1801082303085206</td>
+			<td class="str">1801082601960002</td>
+			<td>AHMAD FAUZI</td>
+			<td>Laki-laki</td>
+			<td>Bitung Jaya</td>
+			<td class="str">26/01/1996</td>
+			<td>Indonesia</td>
+			<td>Islam</td>
+			<td>Belum Kawin</td>
+			<td>SMA</td>
+			<td>Wiraswasta</td>
+			<td>Banten</td>
+			<td>Tangerang</td>
+			<td>Cikupa</td>
+			<td>Bitung Jaya</td>
+			<td>Dusun Mekar Sari</td>
+			<td>001/001</td>
+			<td class="str">0</td>
+			<td></td>
+			<td></td>
+			<td> -</td>
+			
+		</tr>
+				<tr>
+			<td>7</td>
+			<td class="str">1801082303085206</td>
+			<td class="str">1801230808690002</td>
+			<td>BADIYANTO</td>
+			<td>Laki-laki</td>
+			<td>BANYUWANGI</td>
+			<td class="str">08/08/1969</td>
+			<td>Indonesia</td>
+			<td>Islam</td>
+			<td>Kawin</td>
+			<td>SD</td>
+			<td> Petani/Pekebun</td>
+			<td>Banten</td>
+			<td>Tangerang</td>
+			<td>Cikupa</td>
+			<td>Bitung Jaya</td>
+			<td>Dusun Sinar Jaya</td>
+			<td>001/001</td>
+			<td class="str">0</td>
+			<td></td>
+			<td></td>
+			<td> -</td>
+			
+		</tr>
+				<tr>
+			<td>8</td>
+			<td class="str">1801082303085195</td>
+			<td class="str">1801081003620002</td>
+			<td>MARYONO</td>
+			<td>Laki-laki</td>
+			<td>BANYUWANGI</td>
+			<td class="str">10/03/1962</td>
+			<td>Indonesia</td>
+			<td>Islam</td>
+			<td>Belum Kawin</td>
+			<td>SD</td>
+			<td>Petani/Pekebun</td>
+			<td>Banten</td>
+			<td>Tangerang</td>
+			<td>Cikupa</td>
+			<td>Bitung Jaya</td>
+			<td>Dusun Tegal Sari</td>
+			<td>001/003</td>
+			<td class="str">00</td>
+			<td></td>
+			<td></td>
+			<td> -</td>
+			
+		</tr>
+				<tr>
+			<td>9</td>
+			<td class="str">1801082303083712</td>
+			<td class="str">1801230609640001</td>
+			<td>M.ALI MUKHTAR</td>
+			<td>Laki-laki</td>
+			<td>Tangerang</td>
+			<td class="str">06/09/1964</td>
+			<td>Indonesia</td>
+			<td>Islam</td>
+			<td>Kawin</td>
+			<td>SD</td>
+			<td>Petani/Pekebun</td>
+			<td>Banten</td>
+			<td>Tangerang</td>
+			<td>Cikupa</td>
+			<td>Bitung Jaya</td>
+			<td>Dusun Sinar Jaya</td>
+			<td>004/001</td>
+			<td class="str">0</td>
+			<td></td>
+			<td></td>
+			<td> -</td>
+			
+		</tr>
+				<tr>
+			<td>10</td>
+			<td class="str">1801082303083712</td>
+			<td class="str">1801235605640002</td>
+			<td>RUSMINI</td>
+			<td>Perempuan</td>
+			<td>Tangerang</td>
+			<td class="str">16/05/1964</td>
+			<td>Indonesia</td>
+			<td>Islam</td>
+			<td>Kawin</td>
+			<td>SD</td>
+			<td>Petani/Pekebun</td>
+			<td>Banten</td>
+			<td>Tangerang</td>
+			<td>Cikupa</td>
+			<td>Bitung Jaya</td>
+			<td>Dusun Mekar Sari</td>
+			<td>004/001</td>
+			<td class="str">0</td>
+			<td></td>
+			<td></td>
+			<td> -</td>
+			
+		</tr>
+				<tr>
+			<td>11</td>
+			<td class="str">1801082303083712</td>
+			<td class="str">1801231612900001</td>
+			<td>MUNIR</td>
+			<td>Laki-laki</td>
+			<td>Tangerang</td>
+			<td class="str">16/12/1990</td>
+			<td>Indonesia</td>
+			<td>Islam</td>
+			<td>Belum Kawin</td>
+			<td>SMP</td>
+			<td>Petani/Pekebun</td>
+			<td>Banten</td>
+			<td>Tangerang</td>
+			<td>Cikupa</td>
+			<td>Bitung Jaya</td>
+			<td>Dusun Sinar Jaya</td>
+			<td>004/001</td>
+			<td class="str">0</td>
+			<td></td>
+			<td></td>
+			<td> -</td>
+			
+		</tr>
+				<tr>
+			<td>12</td>
+			<td class="str">180108230308</td>
+			<td class="str">1801235103720001</td>
+			<td>SITI MAEMUNAH</td>
+			<td>Perempuan</td>
+			<td>PEINGSEWU</td>
+			<td class="str">11/03/1972</td>
+			<td>Indonesia</td>
+			<td>Islam</td>
+			<td>Kawin</td>
+			<td> -</td>
+			<td> -</td>
+			<td>Banten</td>
+			<td>Tangerang</td>
+			<td>Cikupa</td>
+			<td>Bitung Jaya</td>
+			<td>Dusun Tegal Sari</td>
+			<td>001/002</td>
+			<td class="str">00</td>
+			<td></td>
+			<td></td>
+			<td> -</td>
+			
+		</tr>
+				<tr>
+			<td>13</td>
+			<td class="str">180108230305522</td>
+			<td class="str">1801231501800001</td>
+			<td>JAMAR</td>
+			<td>Laki-laki</td>
+			<td>Bitung Jaya</td>
+			<td class="str">15/01/1980</td>
+			<td>Indonesia</td>
+			<td>Islam</td>
+			<td>Kawin</td>
+			<td> -</td>
+			<td> -</td>
+			<td>Banten</td>
+			<td>Tangerang</td>
+			<td>Cikupa</td>
+			<td>Bitung Jaya</td>
+			<td>Dusun Mekar Sari</td>
+			<td>003/003</td>
+			<td class="str">0</td>
+			<td></td>
+			<td></td>
+			<td> -</td>
+			
+		</tr>
+				<tr>
+			<td>14</td>
+			<td class="str">1801082209140002</td>
+			<td class="str">1801086005150003</td>
+			<td>SALSABILA NADHIFA</td>
+			<td>Perempuan</td>
+			<td>SUMBER JAYA</td>
+			<td class="str">20/05/2015</td>
+			<td>Indonesia</td>
+			<td>Islam</td>
+			<td>Belum Kawin</td>
+			<td> -</td>
+			<td> -</td>
+			<td>Banten</td>
+			<td>Tangerang</td>
+			<td>Cikupa</td>
+			<td>Bitung Jaya</td>
+			<td>Dusun Tegal Sari</td>
+			<td>005/002</td>
+			<td class="str">0</td>
+			<td></td>
+			<td></td>
+			<td> -</td>
+			
+		</tr>
+				<tr>
+			<td>15</td>
+			<td class="str">1801082209140002</td>
+			<td class="str">1801082006840003</td>
+			<td>MUHAMAD MASYANTO</td>
+			<td>Laki-laki</td>
+			<td>TALANG WAYSULAN</td>
+			<td class="str">20/06/1984</td>
+			<td>Indonesia</td>
+			<td>Islam</td>
+			<td>Kawin</td>
+			<td> -</td>
+			<td> -</td>
+			<td>Banten</td>
+			<td>Tangerang</td>
+			<td>Cikupa</td>
+			<td>Bitung Jaya</td>
+			<td>Dusun Tegal Sari</td>
+			<td>005/002</td>
+			<td class="str">0</td>
+			<td></td>
+			<td></td>
+			<td> -</td>
+			
+		</tr>
+				<tr>
+			<td>16</td>
+			<td class="str">1801082209140002</td>
+			<td class="str">1801086004910011</td>
+			<td>SUMIRAH</td>
+			<td>Perempuan</td>
+			<td>SUMBER JAYA</td>
+			<td class="str">20/04/1991</td>
+			<td>Indonesia</td>
+			<td>Islam</td>
+			<td>Kawin</td>
+			<td> -</td>
+			<td> -</td>
+			<td>Banten</td>
+			<td>Tangerang</td>
+			<td>Cikupa</td>
+			<td>Bitung Jaya</td>
+			<td>Dusun Tegal Sari</td>
+			<td>005/002</td>
+			<td class="str">0</td>
+			<td></td>
+			<td></td>
+			<td> -</td>
+			
+		</tr>
+				<tr>
+			<td>17</td>
+			<td class="str">1801081808160011</td>
+			<td class="str">1801082507900006</td>
+			<td>TRI SUTRISNO</td>
+			<td>Laki-laki</td>
+			<td>PARDASUKA</td>
+			<td class="str">25/06/1990</td>
+			<td>Indonesia</td>
+			<td>Islam</td>
+			<td>Kawin</td>
+			<td> -</td>
+			<td> -</td>
+			<td>Banten</td>
+			<td>Tangerang</td>
+			<td>Cikupa</td>
+			<td>Bitung Jaya</td>
+			<td>Dusun Sinar Jaya</td>
+			<td>001/001</td>
+			<td class="str">0</td>
+			<td></td>
+			<td></td>
+			<td> -</td>
+			
+		</tr>
+				<tr>
+			<td>18</td>
+			<td class="str">1801081808160011</td>
+			<td class="str">1801235402170001</td>
+			<td>INDRA CAHYANI ATHIFAH</td>
+			<td>Perempuan</td>
+			<td>Tangerang</td>
+			<td class="str">14/02/2017</td>
+			<td>Indonesia</td>
+			<td>Islam</td>
+			<td>Belum Kawin</td>
+			<td> -</td>
+			<td> -</td>
+			<td>Banten</td>
+			<td>Tangerang</td>
+			<td>Cikupa</td>
+			<td>Bitung Jaya</td>
+			<td>Dusun Sinar Jaya</td>
+			<td>001/001</td>
+			<td class="str">0</td>
+			<td></td>
+			<td></td>
+			<td> -</td>
+			
+		</tr>
+				<tr>
+			<td>19</td>
+			<td class="str">1801081808160011</td>
+			<td class="str">1801235009930001</td>
+			<td>SITI NUR JAMILAH</td>
+			<td>Perempuan</td>
+			<td>PEMULIHAN</td>
+			<td class="str">10/09/1993</td>
+			<td>Indonesia</td>
+			<td>Islam</td>
+			<td>Kawin</td>
+			<td> -</td>
+			<td> -</td>
+			<td>Banten</td>
+			<td>Tangerang</td>
+			<td>Cikupa</td>
+			<td>Bitung Jaya</td>
+			<td>Dusun Sinar Jaya</td>
+			<td>001/001</td>
+			<td class="str">0</td>
+			<td></td>
+			<td></td>
+			<td> -</td>
+			
+		</tr>
+				<tr>
+			<td>20</td>
+			<td class="str">1801080706180004</td>
+			<td class="str">1801232410170002</td>
+			<td>MUHAMMAD RIFQI PRATAMA</td>
+			<td>Laki-laki</td>
+			<td>PEMULIHAN</td>
+			<td class="str">24/10/2017</td>
+			<td>Indonesia</td>
+			<td>Islam</td>
+			<td>Belum Kawin</td>
+			<td> -</td>
+			<td> -</td>
+			<td>Banten</td>
+			<td>Tangerang</td>
+			<td>Cikupa</td>
+			<td>Bitung Jaya</td>
+			<td>Dusun Sinar Jaya</td>
+			<td>005/001</td>
+			<td class="str">0</td>
+			<td></td>
+			<td></td>
+			<td> -</td>
+			
+		</tr>
+				<tr>
+			<td>21</td>
+			<td class="str">1801080706180004</td>
+			<td class="str">1801235901990001</td>
+			<td>SITI JARMAYA</td>
+			<td>Perempuan</td>
+			<td>PEMULIHAN</td>
+			<td class="str">19/01/1999</td>
+			<td>Indonesia</td>
+			<td>Islam</td>
+			<td>Cerai Hidup</td>
+			<td> -</td>
+			<td> -</td>
+			<td>Banten</td>
+			<td>Tangerang</td>
+			<td>Cikupa</td>
+			<td>Bitung Jaya</td>
+			<td>Dusun Sinar Jaya</td>
+			<td>005/001</td>
+			<td class="str">0</td>
+			<td></td>
+			<td></td>
+			<td> -</td>
+			
+		</tr>
+				<tr>
+			<td>22</td>
+			<td class="str">1801062303085183</td>
+			<td class="str">1801065501770005</td>
+			<td>SUMIYATI</td>
+			<td>Perempuan</td>
+			<td>PEMULIHAN</td>
+			<td class="str">15/01/1977</td>
+			<td>Indonesia</td>
+			<td>Islam</td>
+			<td>Kawin</td>
+			<td> -</td>
+			<td> -</td>
+			<td>Banten</td>
+			<td>Tangerang</td>
+			<td>Cikupa</td>
+			<td>Bitung Jaya</td>
+			<td>Dusun Tegal Sari</td>
+			<td>001/001</td>
+			<td class="str">00</td>
+			<td></td>
+			<td></td>
+			<td> -</td>
+			
+		</tr>
+				<tr>
+			<td>23</td>
+			<td class="str">1801062303085183</td>
+			<td class="str">1801232406990002</td>
+			<td>DONI WANDIKA</td>
+			<td>Laki-laki</td>
+			<td>KALIANDA</td>
+			<td class="str">24/06/1999</td>
+			<td>Indonesia</td>
+			<td>Islam</td>
+			<td>Belum Kawin</td>
+			<td> -</td>
+			<td> -</td>
+			<td>Banten</td>
+			<td>Tangerang</td>
+			<td>Cikupa</td>
+			<td>Bitung Jaya</td>
+			<td>Dusun Tegal Sari</td>
+			<td>001/001</td>
+			<td class="str">00</td>
+			<td></td>
+			<td></td>
+			<td> -</td>
+			
+		</tr>
+				<tr>
+			<td>24</td>
+			<td class="str">1801062303085183</td>
+			<td class="str">1801230809060004</td>
+			<td>INDRI DAMAYANTI</td>
+			<td>Perempuan</td>
+			<td>Bitung Jaya</td>
+			<td class="str">28/09/2006</td>
+			<td>Indonesia</td>
+			<td>Islam</td>
+			<td>Belum Kawin</td>
+			<td> -</td>
+			<td> -</td>
+			<td>Banten</td>
+			<td>Tangerang</td>
+			<td>Cikupa</td>
+			<td>Bitung Jaya</td>
+			<td>Dusun Sinar Jaya</td>
+			<td>001/001</td>
+			<td class="str">00</td>
+			<td></td>
+			<td></td>
+			<td> -</td>
+			
+		</tr>
+			</table>
+		<table border="0">
+		<tr>
+			<td colspan="5"></td><td colspan='2'>Petugas,</td>
+		</tr>
+		<br />
+<b>Notice</b>:  Undefined variable: _SESSION in <b>C:\xampp\htdocs\app-suratdesa\data\datapenduduk.php</b> on line <b>114</b><br />
+</td>
+		</tr>
+	</table>
+</body>
+</html>

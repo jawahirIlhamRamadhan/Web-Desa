@@ -1,0 +1,35 @@
+.efek-ketik
+        {
+            font-size: 24px;
+            width: 98%;
+            letter-spacing: 2px;
+            white-space:nowrap;
+            overflow:hidden;
+            -webkit-animation: ketik 5s steps(50, end);
+            animation: ketik 5s steps(50, end);
+        }
+ 
+        @keyframes ketik{
+            from { width: 0; }
+        }
+ 
+        @-webkit-keyframes ketik{
+            from { width: 0; }
+        }
+#crow {
+ float: left;
+ margin-top: 0px;
+ color: #000000;
+ font-size: 26px;
+ animation: crow 0.5s linear 0s infinite;
+ }
+
+@keyframes crow {
+   from {
+   opacity: 0;
+   }
+
+    to {
+   opacity: 1;
+   }
+}
