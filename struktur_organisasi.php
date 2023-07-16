@@ -139,10 +139,14 @@ include_once "assets/inc.php";
 
             <!-- BREADCRUMB-->
 
-    <section class="p-t-50 p-b-160" style="background: url(assets/pattern/purty_wood.png) repeat;">
-        <div class=" text-center">
-            <img src="images/LogoKabupatenTangerang.png" width="300" height="100">
-        </div>
+    <section class="p-t-100 p-b-160" style="background: url(assets/pattern/purty_wood.png) repeat;">
+    <div class="text-center">
+    <img src="images/icon/SK.png" width="1000" height="100">
+    <br> <!-- Tambahkan baris baru di sini -->
+    <div style="margin-top: 30px;">
+        <img src="images/icon/SB.png" width="1000" height="100">
+    </div>
+</div>
             <!-- END BREADCRUMB-->
 
             <!-- COPYRIGHT-->
