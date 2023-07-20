@@ -99,20 +99,20 @@
                 <div class="container-fluid">
                     <ul class="navbar-mobile__list list-unstyled">
                         <li>
-                                <a href="index.php">
-                                    <i class="fas fa-home"></i>
-                                    <span class="bot-line"></span>HOME</a>
-                            </li>
+                            <a href="index.php">
+                                <i class="fas fa-home"></i>
+                                <span class="bot-line"></span>HOME</a>
+                        </li>
                         <li>
-                                <a href="tentang.php">
-                                    <i class="fas fa-book"></i>
-                                    <span class="bot-line"></span>TENTANG</a>
-                            </li>
-                            <li>
-                                <a href="struktur_organisasi.php">
-                                    <i class="fas fa-book"></i>
-                                    <span class="bot-line"></span>STRUKTUR ORGANISASI</a>
-                            </li>
+                            <a href="tentang.php">
+                                <i class="fas fa-book"></i>
+                                <span class="bot-line"></span>TENTANG</a>
+                        </li>
+                        <li>
+                            <a href="struktur_organisasi.php">
+                                <i class="fas fa-book"></i>
+                                <span class="bot-line"></span>STRUKTUR ORGANISASI</a>
+                        </li>
                     </ul>
                 </div>
             </nav>
@@ -135,35 +135,35 @@
             <!-- BREADCRUMB-->
 
             <section class="au-breadcrumb2" style="padding: 100px 0px;background: url(assets/pattern/dark_brick_wall.png) repeat;">
-        <div class="col-lg-12 text-center">
-            <h1 style="color: white; padding: 20px;text-shadow: -2px 2px rgb(110,112,145);">LAYANAN SURAT DESA ONLINE</h1>
-            <h3 style="color: white; padding: 20px; text-align: center;text-shadow: -2px 2px rgb(110,112,145);">masukan Username dan Password anda</h3>
-        </div>
-            <div class="container">
-                <div class="login-wrap">
-                    <div class="login-content">
-                        <div class="login-form">
-                            <form action="login_act.php" method="post">
-                                <div class="form-group">
-                                    <label>Username</label>
-                                    <input class="au-input au-input--full" type="text" name="uname" placeholder="Username">
+                <div class="col-lg-12 text-center">
+                    <h1 style="color: white; padding: 20px;text-shadow: -2px 2px rgb(110,112,145);">LAYANAN SURAT DESA ONLINE</h1>
+                    <h3 style="color: white; padding: 20px; text-align: center;text-shadow: -2px 2px rgb(110,112,145);">masukan Username dan Password anda</h3>
+                </div>
+                <div class="container">
+                    <div class="login-wrap">
+                        <div class="login-content">
+                            <div class="login-form">
+                                <form action="login_act.php" method="post">
+                                    <div class="form-group">
+                                        <label>Username</label>
+                                        <input class="au-input au-input--full" type="text" name="uname" placeholder="Username">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Password</label>
+                                        <input class="au-input au-input--full" type="password" name="pass" placeholder="Password">
+                                    </div>
+                                    <button class="au-btn au-btn--block au-btn--green m-b-20" type="submit">Masuk</button>
+                                </form>
+                                <div class="register-link">
+                                    <p>
+                                        Don't you have account?
+                                        <a href="reg_staff.php">Sign Up Here</a>
+                                    </p>
                                 </div>
-                                <div class="form-group">
-                                    <label>Password</label>
-                                    <input class="au-input au-input--full" type="password" name="pass" placeholder="Password">
-                                </div>
-                                <button class="au-btn au-btn--block au-btn--green m-b-20" type="submit">Masuk</button>
-                            </form>
-                            <div class="register-link">
-                                <p>
-                                    Don't you have account?
-                                    <a href="reg_staff.php">Sign Up Here</a>
-                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
             </section>
             <!-- END BREADCRUMB-->
 

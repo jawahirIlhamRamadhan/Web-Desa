@@ -20,13 +20,13 @@ include '../koneksi.php';
         if ($simpan){
             if (empty($lokasi_file)){
             //echo "<center><font color='#FF0000' size='+2'>Maaf Anda belum memilih Gambar<br></font></center>";
-            ?><script language="javascript">alert('Maaf Anda belum memilih Foto')</script><?php
+            ?><script language="javascript">alert('Maaf Anda belum Melengkapi Data')</script><?php
             ?><script>document.location.href="../reg_staff.php";</script><?php
     }else{
         mysqli_query($con, "INSERT INTO t_admin VALUES ('','$un','$email','$hp','$desa','$pass','".date('Y-m-d')."','$nama_file_unik','$level','','')")or die (Error.mysqli_error());
         //echo "<center><font color='#FF0000' size='+1'>Berhasil disimpan</font></center><br>";
                 ?><script language="javascript">alert('Registrasi Berhasil !')</script><?php
-            ?><script>document.location.href="../login.php";</script><?php
+            ?><script>document.location.href="../admin.php";</script><?php
     }
         }
         ?>

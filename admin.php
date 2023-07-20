@@ -4,6 +4,7 @@ include 'koneksi.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Required meta tags-->
     <meta charset="UTF-8">
@@ -37,7 +38,7 @@ include 'koneksi.php';
     <link href="css/theme.css" rel="stylesheet" media="all">
     <!-- Custom styles for this page -->
     <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="assets/tambahdata.css">
+    <link rel="stylesheet" href="assets/tambahdata.css">
 
 </head>
 
@@ -63,82 +64,82 @@ include 'koneksi.php';
                 <div class="container-fluid">
                     <ul class="navbar-mobile__list list-unstyled">
                         <li class="has-sub">
-                        <a class="js-arrow" href="#"><i class="fas fa-laptop"></i>Tata Usaha</a>
-                        <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
-                        <li><a href='?page=undangan' title='Surat Undangan'>Undangan</a></li>
-                        <li><a href='?page=pengantar' title='Surat Pengantar'>Pengantar</a></li>
-                        <li><a href='?page=pemberitahuan' title='Surat Pemberitahuan'>Pemberitahuan</a></li>
-                        <li><a href='?page=himbauan' title='Surat Himbauan'>Himbauan</a></li>
-                        <li><a href='?page=pdinas' title='Surat Perjalanan Dinas'>Perjalanan Dinas</a></li>
-                        <li><a href='?page=jawaban' title='Surat Jawaban'>Jawaban</a></li>
+                            <a class="js-arrow" href="#"><i class="fas fa-laptop"></i>Tata Usaha</a>
+                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
+                                <li><a href='?page=undangan' title='Surat Undangan'>Undangan</a></li>
+                                <li><a href='?page=pengantar' title='Surat Pengantar'>Pengantar</a></li>
+                                <li><a href='?page=pemberitahuan' title='Surat Pemberitahuan'>Pemberitahuan</a></li>
+                                <li><a href='?page=himbauan' title='Surat Himbauan'>Himbauan</a></li>
+                                <li><a href='?page=pdinas' title='Surat Perjalanan Dinas'>Perjalanan Dinas</a></li>
+                                <li><a href='?page=jawaban' title='Surat Jawaban'>Jawaban</a></li>
                             </ul>
                         </li>
                         <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-folder"></i>Umum</a>
                             <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
-                        <li><a href='?page=suketusaha' title='Suket Usaha'>Usaha</a></li>
-                        <li><a href='?page=sukettmpusaha' title='Suket Tempat Usaha'>Tempat Usaha</a></li>
-                        <li><a href='?page=suketpbarang' title='Suket Pengantar Barang'>Pengantar Barang</a></li>
-                        <li><a href='?page=suketpternak' title='Suket Pengantar Ternak'>Pengantar Ternak</a></li>
-                        <li><a href='?page=sukettmampuv1' title='Suket Keterangan Tidak Mampu Personal'>Tdk. Mampu V1</a></li>
-                        <li><a href='?page=sukettmampuv2' title='Suket Keterangan Tidak Mampu Keluarga'>Tdk. Mampu V2</a></li>
-                        <li><a href='?page=suketrtm' title='Suket Keterangan Rumah Tangga Miskin'>RTM</a></li>
-                        <li><a href='?page=suketpenghasilan' title='Suket Keterangan Penghasilan'>Penghasilan</a></li>
-                        <li><a href='?page=suketortu' title='Suket Keterangan Orang Tua'>Orang Tua</a></li>
-                        <li><a href='?page=suketanak' title='Suket Keterangan Anak'>Anak</a></li>
-                        <li><a href='?page=suketmenikah' title='Suket Keterangan Menikah'>Menikah</a></li>
-                        <li><a href='?page=suketkematian' title='Suket Keterangan Kematian'>Kematian</a></li>
-                        <li><a href='?page=suketbepergian' title='Suket Keterangan Bepergian'>Bepergian</a></li>
-                        <li><a href='?page=suketbedaid' title='Suket Keterangan Beda Identitas'>Beda Id</a></li>
-                        <li><a href='?page=suketdomisililbg' title='Suket Keterangan Domilisi Lembaga'>Domisili Lembaga</a></li>
-                        <li><a href='?page=suketaw' title='Suket Ahli Waris'>Ahli Waris</a></li>
-                        <li><a href='?page=skkb' title='Surat Keterangan Kelakuan Baik'>SKKB</a></li>
-                        <li><a href='?page=suketlain2' title='Suket Keterangan Lain2'>Lainnya</a></li>
+                                <li><a href='?page=suketusaha' title='Suket Usaha'>Usaha</a></li>
+                                <li><a href='?page=sukettmpusaha' title='Suket Tempat Usaha'>Tempat Usaha</a></li>
+                                <li><a href='?page=suketpbarang' title='Suket Pengantar Barang'>Pengantar Barang</a></li>
+                                <li><a href='?page=suketpternak' title='Suket Pengantar Ternak'>Pengantar Ternak</a></li>
+                                <li><a href='?page=sukettmampuv1' title='Suket Keterangan Tidak Mampu Personal'>Tdk. Mampu V1</a></li>
+                                <li><a href='?page=sukettmampuv2' title='Suket Keterangan Tidak Mampu Keluarga'>Tdk. Mampu V2</a></li>
+                                <li><a href='?page=suketrtm' title='Suket Keterangan Rumah Tangga Miskin'>RTM</a></li>
+                                <li><a href='?page=suketpenghasilan' title='Suket Keterangan Penghasilan'>Penghasilan</a></li>
+                                <li><a href='?page=suketortu' title='Suket Keterangan Orang Tua'>Orang Tua</a></li>
+                                <li><a href='?page=suketanak' title='Suket Keterangan Anak'>Anak</a></li>
+                                <li><a href='?page=suketmenikah' title='Suket Keterangan Menikah'>Menikah</a></li>
+                                <li><a href='?page=suketkematian' title='Suket Keterangan Kematian'>Kematian</a></li>
+                                <li><a href='?page=suketbepergian' title='Suket Keterangan Bepergian'>Bepergian</a></li>
+                                <li><a href='?page=suketbedaid' title='Suket Keterangan Beda Identitas'>Beda Id</a></li>
+                                <li><a href='?page=suketdomisililbg' title='Suket Keterangan Domilisi Lembaga'>Domisili Lembaga</a></li>
+                                <li><a href='?page=suketaw' title='Suket Ahli Waris'>Ahli Waris</a></li>
+                                <li><a href='?page=skkb' title='Surat Keterangan Kelakuan Baik'>SKKB</a></li>
+                                <li><a href='?page=suketlain2' title='Suket Keterangan Lain2'>Lainnya</a></li>
                             </ul>
                         </li>
                         <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-users"></i>Kependudukan</a>
                             <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
-                        <li><a href='?page=suketdomisili' title='Suket Domisili'>Domisili</a></li>
-                        <li><a href='?page=sutarpindah' title='Sutar Pindah'>Pengantar Pindah</a></li>
-                        <li><a href='?page=suketkelahiran' title='Suket Kelahiran'>Kelahiran</a></li>
-                        <li><a href='?page=suketpenguburan' title='Suket Penguburan'>Penguburan</a></li>
-                        <li><a href='?page=f121' title='Suket Permohonan KTP'>Permohonan KTP</a></li>
+                                <li><a href='?page=suketdomisili' title='Suket Domisili'>Domisili</a></li>
+                                <li><a href='?page=sutarpindah' title='Sutar Pindah'>Pengantar Pindah</a></li>
+                                <li><a href='?page=suketkelahiran' title='Suket Kelahiran'>Kelahiran</a></li>
+                                <li><a href='?page=suketpenguburan' title='Suket Penguburan'>Penguburan</a></li>
+                                <li><a href='?page=f121' title='Suket Permohonan KTP'>Permohonan KTP</a></li>
                             </ul>
                         </li>
                         <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-heart"></i>Pernikahan</a>
-                        <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
-                        <li><a href='?page=n1-n6' title='Pengantar Pernikahan'>N1-N6</a></li>
-                        <li><a href='?page=pernahnikah' title='Suket Pernah Menikah'>Pernah Nikah</a></li>
-                        <li><a href='?page=belumnikah' title='Suket Belum Menikah'>Belum Nikah</a></li>
-                        <li><a href='?page=dudajanda' title='Suket Duda atau Janda'>Duda/Janda</a></li>
-                        <li><a href='?page=pstatus' title='Pernyataan Status Perkawinan'>Status</a></li>
+                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
+                                <li><a href='?page=n1-n6' title='Pengantar Pernikahan'>N1-N6</a></li>
+                                <li><a href='?page=pernahnikah' title='Suket Pernah Menikah'>Pernah Nikah</a></li>
+                                <li><a href='?page=belumnikah' title='Suket Belum Menikah'>Belum Nikah</a></li>
+                                <li><a href='?page=dudajanda' title='Suket Duda atau Janda'>Duda/Janda</a></li>
+                                <li><a href='?page=pstatus' title='Pernyataan Status Perkawinan'>Status</a></li>
                             </ul>
                         </li>
                         <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-map"></i>Pertanahan</a>
-                        <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
-                        <li><a href='?page=sukettanah' title='Suket Kepemilikan Tanah'>Tanah</a></li>
-                        <li><a href='?page=sporadik' title='Pernyataan Penguasaan Fisik Bidang Tanah'>Sporadik</a></li>
-                        <li><a href='?page=sewatanah' title='Perjanjian Sewa Tanah'>Sewa Tanah</a></li>
-                        <li><a href='?page=jualbelitanah' title='Suket Jual Beli Tanah'>Jual/Beli Tanah</a></li>
-                        <li><a href='?page=gadai' title='Perjanjian Jal Beli Sanda'>Jual Beli Sanda</a></li>
+                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
+                                <li><a href='?page=sukettanah' title='Suket Kepemilikan Tanah'>Tanah</a></li>
+                                <li><a href='?page=sporadik' title='Pernyataan Penguasaan Fisik Bidang Tanah'>Sporadik</a></li>
+                                <li><a href='?page=sewatanah' title='Perjanjian Sewa Tanah'>Sewa Tanah</a></li>
+                                <li><a href='?page=jualbelitanah' title='Suket Jual Beli Tanah'>Jual/Beli Tanah</a></li>
+                                <li><a href='?page=gadai' title='Perjanjian Jal Beli Sanda'>Jual Beli Sanda</a></li>
                             </ul>
                         </li>
                         <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-list"></i>Data</a>
-                        <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
-                        <li><a href='?page=profile' title='Profile Desa'>Profile</a></li>
-                        <li><a href='?page=penduduk' title='Data Penduduk'>Penduduk</a></li>
-                        <li><a href='?page=jenissurat' title='Dat Jenis Surat'>Jenis Surat</a></li>
-                        <li><a href='?page=klasifikasi' title='Data Klasifikasi Surat'>Klasifikasi</a></li>
-                        <li><a href='?page=staff' title='Data Staff'>Staff</a></li>
+                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
+                                <li><a href='?page=profile' title='Profile Desa'>Profile</a></li>
+                                <li><a href='?page=penduduk' title='Data Penduduk'>Penduduk</a></li>
+                                <li><a href='?page=jenissurat' title='Dat Jenis Surat'>Jenis Surat</a></li>
+                                <li><a href='?page=klasifikasi' title='Data Klasifikasi Surat'>Klasifikasi</a></li>
+                                <li><a href='?page=staff' title='Data Staff'>Staff</a></li>
                             </ul>
                         </li>
                         <li class="has-sub">
@@ -171,82 +172,82 @@ include 'koneksi.php';
                 <nav class="navbar-sidebar">
                     <ul class="list-unstyled navbar__list">
                         <li class="has-sub">
-                        <a class="js-arrow" href="#"><i class="fas fa-laptop"></i>Tata Usaha</a>
-                        <ul class="list-unstyled navbar__sub-list js-sub-list">
-                        <li><a href='?page=undangan' title='Surat Undangan'>Undangan</a></li>
-                        <li><a href='?page=pengantar' title='Surat Pengantar'>Pengantar</a></li>
-                        <li><a href='?page=pemberitahuan' title='Surat Pemberitahuan'>Pemberitahuan</a></li>
-                        <li><a href='?page=himbauan' title='Surat Himbauan'>Himbauan</a></li>
-                        <li><a href='?page=pdinas' title='Surat Perjalanan Dinas'>Perjalanan Dinas</a></li>
-                        <li><a href='?page=jawaban' title='Surat Jawaban'>Jawaban</a></li>
+                            <a class="js-arrow" href="#"><i class="fas fa-laptop"></i>Tata Usaha</a>
+                            <ul class="list-unstyled navbar__sub-list js-sub-list">
+                                <li><a href='?page=undangan' title='Surat Undangan'>Undangan</a></li>
+                                <li><a href='?page=pengantar' title='Surat Pengantar'>Pengantar</a></li>
+                                <li><a href='?page=pemberitahuan' title='Surat Pemberitahuan'>Pemberitahuan</a></li>
+                                <li><a href='?page=himbauan' title='Surat Himbauan'>Himbauan</a></li>
+                                <li><a href='?page=pdinas' title='Surat Perjalanan Dinas'>Perjalanan Dinas</a></li>
+                                <li><a href='?page=jawaban' title='Surat Jawaban'>Jawaban</a></li>
                             </ul>
                         </li>
                         <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-folder"></i>Umum</a>
-                        <ul class="list-unstyled navbar__sub-list js-sub-list">
-                        <li><a href='?page=suketusaha' title='Suket Usaha'>Usaha</a></li>
-                        <li><a href='?page=sukettmpusaha' title='Suket Tempat Usaha'>Tempat Usaha</a></li>
-                        <li><a href='?page=suketpbarang' title='Suket Pengantar Barang'>Pengantar Barang</a></li>
-                        <li><a href='?page=suketpternak' title='Suket Pengantar Ternak'>Pengantar Ternak</a></li>
-                        <li><a href='?page=sukettmampuv1' title='Suket Keterangan Tidak Mampu Personal'>Tdk. Mampu V1</a></li>
-                        <li><a href='?page=sukettmampuv2' title='Suket Keterangan Tidak Mampu Keluarga'>Tdk. Mampu V2</a></li>
-                        <li><a href='?page=suketrtm' title='Suket Keterangan Rumah Tangga Miskin'>RTM</a></li>
-                        <li><a href='?page=suketpenghasilan' title='Suket Keterangan Penghasilan'>Penghasilan</a></li>
-                        <li><a href='?page=suketortu' title='Suket Keterangan Orang Tua'>Orang Tua</a></li>
-                        <li><a href='?page=suketanak' title='Suket Keterangan Anak'>Anak</a></li>
-                        <li><a href='?page=suketmenikah' title='Suket Keterangan Menikah'>Menikah</a></li>
-                        <li><a href='?page=suketkematian' title='Suket Keterangan Kematian'>Kematian</a></li>
-                        <li><a href='?page=suketbepergian' title='Suket Keterangan Bepergian'>Bepergian</a></li>
-                        <li><a href='?page=suketbedaid' title='Suket Keterangan Beda Identitas'>Beda Id</a></li>
-                        <li><a href='?page=suketdomisililbg' title='Suket Keterangan Domilisi Lembaga'>Domisili Lembaga</a></li>
-                        <li><a href='?page=suketaw' title='Suket Ahli Waris'>Ahli Waris</a></li>
-                        <li><a href='?page=skkb' title='Surat Keterangan Kelakuan Baik'>SKKB</a></li>
-                        <li><a href='?page=suketlain2' title='Suket Keterangan Lain2'>Lainnya</a></li>
+                            <ul class="list-unstyled navbar__sub-list js-sub-list">
+                                <li><a href='?page=suketusaha' title='Suket Usaha'>Usaha</a></li>
+                                <li><a href='?page=sukettmpusaha' title='Suket Tempat Usaha'>Tempat Usaha</a></li>
+                                <li><a href='?page=suketpbarang' title='Suket Pengantar Barang'>Pengantar Barang</a></li>
+                                <li><a href='?page=suketpternak' title='Suket Pengantar Ternak'>Pengantar Ternak</a></li>
+                                <li><a href='?page=sukettmampuv1' title='Suket Keterangan Tidak Mampu Personal'>Tdk. Mampu V1</a></li>
+                                <li><a href='?page=sukettmampuv2' title='Suket Keterangan Tidak Mampu Keluarga'>Tdk. Mampu V2</a></li>
+                                <li><a href='?page=suketrtm' title='Suket Keterangan Rumah Tangga Miskin'>RTM</a></li>
+                                <li><a href='?page=suketpenghasilan' title='Suket Keterangan Penghasilan'>Penghasilan</a></li>
+                                <li><a href='?page=suketortu' title='Suket Keterangan Orang Tua'>Orang Tua</a></li>
+                                <li><a href='?page=suketanak' title='Suket Keterangan Anak'>Anak</a></li>
+                                <li><a href='?page=suketmenikah' title='Suket Keterangan Menikah'>Menikah</a></li>
+                                <li><a href='?page=suketkematian' title='Suket Keterangan Kematian'>Kematian</a></li>
+                                <li><a href='?page=suketbepergian' title='Suket Keterangan Bepergian'>Bepergian</a></li>
+                                <li><a href='?page=suketbedaid' title='Suket Keterangan Beda Identitas'>Beda Id</a></li>
+                                <li><a href='?page=suketdomisililbg' title='Suket Keterangan Domilisi Lembaga'>Domisili Lembaga</a></li>
+                                <li><a href='?page=suketaw' title='Suket Ahli Waris'>Ahli Waris</a></li>
+                                <li><a href='?page=skkb' title='Surat Keterangan Kelakuan Baik'>SKKB</a></li>
+                                <li><a href='?page=suketlain2' title='Suket Keterangan Lain2'>Lainnya</a></li>
                             </ul>
                         </li>
                         <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-users"></i>Kependudukan</a>
-                        <ul class="list-unstyled navbar__sub-list js-sub-list">
-                        <li><a href='?page=suketdomisili' title='Suket Domisili'>Domisili</a></li>
-                        <li><a href='?page=sutarpindah' title='Sutar Pindah'>Pengantar Pindah</a></li>
-                        <li><a href='?page=suketkelahiran' title='Suket Kelahiran'>Kelahiran</a></li>
-                        <li><a href='?page=suketpenguburan' title='Suket Penguburan'>Penguburan</a></li>
-                        <li><a href='?page=f121' title='Suket Permohonan KTP'>Permohonan KTP</a></li>
+                            <ul class="list-unstyled navbar__sub-list js-sub-list">
+                                <li><a href='?page=suketdomisili' title='Suket Domisili'>Domisili</a></li>
+                                <li><a href='?page=sutarpindah' title='Sutar Pindah'>Pengantar Pindah</a></li>
+                                <li><a href='?page=suketkelahiran' title='Suket Kelahiran'>Kelahiran</a></li>
+                                <li><a href='?page=suketpenguburan' title='Suket Penguburan'>Penguburan</a></li>
+                                <li><a href='?page=f121' title='Suket Permohonan KTP'>Permohonan KTP</a></li>
                             </ul>
                         </li>
-                       <li class="has-sub">
+                        <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-heart"></i>Pernikahan</a>
-                        <ul class="list-unstyled navbar__sub-list js-sub-list">
-                        <li><a href='?page=n1-n6' title='Pengantar Pernikahan'>N1-N6</a></li>
-                        <li><a href='?page=pernahnikah' title='Suket Pernah Menikah'>Pernah Nikah</a></li>
-                        <li><a href='?page=belumnikah' title='Suket Belum Menikah'>Belum Nikah</a></li>
-                        <li><a href='?page=dudajanda' title='Suket Duda atau Janda'>Duda/Janda</a></li>
-                        <li><a href='?page=pstatus' title='Pernyataan Status Perkawinan'>Status</a></li>
+                            <ul class="list-unstyled navbar__sub-list js-sub-list">
+                                <li><a href='?page=n1-n6' title='Pengantar Pernikahan'>N1-N6</a></li>
+                                <li><a href='?page=pernahnikah' title='Suket Pernah Menikah'>Pernah Nikah</a></li>
+                                <li><a href='?page=belumnikah' title='Suket Belum Menikah'>Belum Nikah</a></li>
+                                <li><a href='?page=dudajanda' title='Suket Duda atau Janda'>Duda/Janda</a></li>
+                                <li><a href='?page=pstatus' title='Pernyataan Status Perkawinan'>Status</a></li>
                             </ul>
                         </li>
                         <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-map"></i>Pertanahan</a>
-                        <ul class="list-unstyled navbar__sub-list js-sub-list">
-                        <li><a href='?page=sukettanah' title='Suket Kepemilikan Tanah'>Tanah</a></li>
-                        <li><a href='?page=sporadik' title='Pernyataan Penguasaan Fisik Bidang Tanah'>Sporadik</a></li>
-                        <li><a href='?page=sewatanah' title='Perjanjian Sewa Tanah'>Sewa Tanah</a></li>
-                        <li><a href='?page=jualbelitanah' title='Suket Jual Beli Tanah'>Jual/Beli Tanah</a></li>
-                        <li><a href='?page=gadai' title='Perjanjian Jal Beli Sanda'>Jual Beli Sanda</a></li>
+                            <ul class="list-unstyled navbar__sub-list js-sub-list">
+                                <li><a href='?page=sukettanah' title='Suket Kepemilikan Tanah'>Tanah</a></li>
+                                <li><a href='?page=sporadik' title='Pernyataan Penguasaan Fisik Bidang Tanah'>Sporadik</a></li>
+                                <li><a href='?page=sewatanah' title='Perjanjian Sewa Tanah'>Sewa Tanah</a></li>
+                                <li><a href='?page=jualbelitanah' title='Suket Jual Beli Tanah'>Jual/Beli Tanah</a></li>
+                                <li><a href='?page=gadai' title='Perjanjian Jal Beli Sanda'>Jual Beli Sanda</a></li>
                             </ul>
                         </li>
-                         <li class="has-sub">
+                        <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-list"></i>Data</a>
-                        <ul class="list-unstyled navbar__sub-list js-sub-list">
-                        <li><a href='?page=profile' title='Profile Desa'>Profile</a></li>
-                        <li><a href='?page=penduduk' title='Data Penduduk'>Penduduk</a></li>
-                        <li><a href='?page=jenissurat' title='Dat Jenis Surat'>Jenis Surat</a></li>
-                        <li><a href='?page=klasifikasi' title='Data Klasifikasi Surat'>Klasifikasi</a></li>
-                        <li><a href='?page=staff' title='Data Staff'>Staff</a></li>
+                            <ul class="list-unstyled navbar__sub-list js-sub-list">
+                                <li><a href='?page=profile' title='Profile Desa'>Profile</a></li>
+                                <li><a href='?page=penduduk' title='Data Penduduk'>Penduduk</a></li>
+                                <li><a href='?page=jenissurat' title='Dat Jenis Surat'>Jenis Surat</a></li>
+                                <li><a href='?page=klasifikasi' title='Data Klasifikasi Surat'>Klasifikasi</a></li>
+                                <li><a href='?page=staff' title='Data Staff'>Staff</a></li>
                             </ul>
                         </li>
                         <li class="has-sub">
@@ -281,111 +282,112 @@ include 'koneksi.php';
                                     <i class="zmdi zmdi-search"></i>
                                 </button>
                             </form>
-                            <?php 
-                            $query = mysqli_query ($con, "SELECT count(*) AS jp FROM t_permohonan WHERE status='onprocess' ORDER BY id ASC");
-                            while ($r = mysqli_fetch_array($query)){
+                            <?php
+                            $query = mysqli_query($con, "SELECT count(*) AS jp FROM t_permohonan WHERE status='onprocess' ORDER BY id ASC");
+                            while ($r = mysqli_fetch_array($query)) {
                             ?>
-                            <div class="header-button">
-                                <div class="noti-wrap">
-                                    <div class="noti__item js-item-menu">
-                                        <i class="zmdi zmdi-comment-more"></i>
-                                        <span class="quantity"><?php echo $r['jp'];?></span>
-                                        <div class="mess-dropdown js-dropdown">
-                                            <div class="mess__title">
-                                                <p>Ada <?php echo $r['jp'];?> permohonan surat</p>
-                                            </div><?php } ?>
-                            <?php 
-                            $queryy = mysqli_query ($con, "SELECT * FROM t_permohonan WHERE status='onprocess' ORDER BY id ASC limit 4");
-                            while ($rr = mysqli_fetch_array($queryy)){
-                            ?>
-                                            <div class="mess__item">
-                                                <div class="image img-cir img-40">
-                                                    <img src="fotowarga/<?php echo $rr['foto'];?>" alt="nopic" />
-                                                </div>
-                                                <div class="content">
-                                                    <p><a href="?page=<?php echo $rr['page'];?>"><?php echo $rr['nama'];?></a> <small><span class="date pull pull-right"><?php echo $rr['tgl'];?></span></small>
-                                                    <br><?php echo $rr['nmsurat'];?></p>
-                                                    
-                                                </div>
-                                            </div><?php } ?>
-                                            
+                                <div class="header-button">
+                                    <div class="noti-wrap">
+                                        <div class="noti__item js-item-menu">
+                                            <i class="zmdi zmdi-comment-more"></i>
+                                            <span class="quantity"><?php echo $r['jp']; ?></span>
+                                            <div class="mess-dropdown js-dropdown">
+                                                <div class="mess__title">
+                                                    <p>Ada <?php echo $r['jp']; ?> permohonan surat</p>
+                                                </div><?php } ?>
+                                            <?php
+                                            $queryy = mysqli_query($con, "SELECT * FROM t_permohonan WHERE status='onprocess' ORDER BY id ASC limit 4");
+                                            while ($rr = mysqli_fetch_array($queryy)) {
+                                            ?>
+                                                <div class="mess__item">
+                                                    <div class="image img-cir img-40">
+                                                        <img src="fotowarga/<?php echo $rr['foto']; ?>" alt="nopic" />
+                                                    </div>
+                                                    <div class="content">
+                                                        <p><a href="?page=<?php echo $rr['page']; ?>"><?php echo $rr['nama']; ?></a> <small><span class="date pull pull-right"><?php echo $rr['tgl']; ?></span></small>
+                                                            <br><?php echo $rr['nmsurat']; ?>
+                                                        </p>
+
+                                                    </div>
+                                                </div><?php } ?>
+
                                             <div class="mess__footer">
                                                 <a href="?page=process_permohonan_all">Lihat semua permohonan</a>
                                             </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <?php 
-                            $queryb = mysqli_query ($con, "SELECT count(*) AS jb FROM t_buatsendiri WHERE status='onprocess' ORDER BY id ASC");
-                            while ($ry = mysqli_fetch_array($queryb)){
-                            ?>
-                                    <div class="noti__item js-item-menu">
-                                        <i class="zmdi zmdi-notifications"></i>
-                                        <span class="quantity"><?php echo $ry['jb'];?></span>
-                                        <div class="notifi-dropdown js-dropdown">
-                                            <div class="notifi__title">
-                                                <p>Ada <?php echo $ry['jb'];?> Surat yg dibuat sendiri</p>
-                                            </div><?php } ?>
-                                             <?php 
-                            $queryx = mysqli_query ($con, "SELECT * FROM t_buatsendiri WHERE status='onprocess' ORDER BY id ASC limit 4");
-                            while ($rx = mysqli_fetch_array($queryx)){
-                            ?>
-                                            <div class="notifi__item">
-                                                <div class="bg-c1 img-cir img-40">
-                                                    <i class="zmdi zmdi-email-open"></i>
-                                                </div>
-                                                <div class="content">
-                                                    <p><a href="?page=acc&amp;id=<?php echo $rx['id'];?>"><?php echo $rx['nama'];?></a> <span class="date pull pull-right"><?php echo $rx['tgl'];?></span><br><?php echo $rx['nmsurat'];?></p>
-                                                    
-                                                </div>
-                                            </div><?php } ?>
+                                        <?php
+                                        $queryb = mysqli_query($con, "SELECT count(*) AS jb FROM t_buatsendiri WHERE status='onprocess' ORDER BY id ASC");
+                                        while ($ry = mysqli_fetch_array($queryb)) {
+                                        ?>
+                                            <div class="noti__item js-item-menu">
+                                                <i class="zmdi zmdi-notifications"></i>
+                                                <span class="quantity"><?php echo $ry['jb']; ?></span>
+                                                <div class="notifi-dropdown js-dropdown">
+                                                    <div class="notifi__title">
+                                                        <p>Ada <?php echo $ry['jb']; ?> Surat yg dibuat sendiri</p>
+                                                    </div><?php } ?>
+                                                <?php
+                                                $queryx = mysqli_query($con, "SELECT * FROM t_buatsendiri WHERE status='onprocess' ORDER BY id ASC limit 4");
+                                                while ($rx = mysqli_fetch_array($queryx)) {
+                                                ?>
+                                                    <div class="notifi__item">
+                                                        <div class="bg-c1 img-cir img-40">
+                                                            <i class="zmdi zmdi-email-open"></i>
+                                                        </div>
+                                                        <div class="content">
+                                                            <p><a href="?page=acc&amp;id=<?php echo $rx['id']; ?>"><?php echo $rx['nama']; ?></a> <span class="date pull pull-right"><?php echo $rx['tgl']; ?></span><br><?php echo $rx['nmsurat']; ?></p>
 
-                                            <div class="notifi__footer">
-                                                <a href="?page=buat_sendiri_all">Semua surat dibuat Warga</a>
+                                                        </div>
+                                                    </div><?php } ?>
+
+                                                <div class="notifi__footer">
+                                                    <a href="?page=buat_sendiri_all">Semua surat dibuat Warga</a>
+                                                </div>
+                                                </div>
                                             </div>
-                                        </div>
                                     </div>
-                                </div>
-                            <?php 
-                            $adm=$_SESSION['uname'];
-                            $queryadm = mysqli_query ($con, "SELECT * FROM t_admin WHERE uname='$adm'");
-                            while ($radm = mysqli_fetch_array($queryadm)){
-                            ?>
-                                <div class="account-wrap">
-                                    <div class="account-item clearfix js-item-menu">
-                                        <div class="image">
-                                            <img src="foto/<?php echo $radm['foto'];?>" alt="nopic" />
-                                        </div>
-                                        <div class="content">
-                                            <a class="js-acc-btn" href="#"><?php echo $radm['uname'];?></a>
-                                        </div>
-                                        <div class="account-dropdown js-dropdown">
-                                            <div class="info clearfix">
+                                    <?php
+                                    $adm = $_SESSION['uname'];
+                                    $queryadm = mysqli_query($con, "SELECT * FROM t_admin WHERE uname='$adm'");
+                                    while ($radm = mysqli_fetch_array($queryadm)) {
+                                    ?>
+                                        <div class="account-wrap">
+                                            <div class="account-item clearfix js-item-menu">
                                                 <div class="image">
-                                                    <a href="#">
-                                                        <img src="foto/<?php echo $radm['foto'];?>" alt="nopic" />
-                                                    </a>
+                                                    <img src="foto/<?php echo $radm['foto']; ?>" alt="nopic" />
                                                 </div>
                                                 <div class="content">
-                                                    <h5 class="name">
-                                                        <a href="#"><?php echo $radm['uname'];?></a>
-                                                    </h5>
-                                                    <span class="email"><?php echo $radm['email'];?></span>
+                                                    <a class="js-acc-btn" href="#"><?php echo $radm['uname']; ?></a>
                                                 </div>
-                                            </div>
-                                            <div class="account-dropdown__body">
-                                                <div class="account-dropdown__item">
-                                                    <a href="?page=adm&amp;uname=<?php echo $radm['uname'];?>">
-                                                        <i class="zmdi zmdi-account"></i>Akun</a>
+                                                <div class="account-dropdown js-dropdown">
+                                                    <div class="info clearfix">
+                                                        <div class="image">
+                                                            <a href="#">
+                                                                <img src="foto/<?php echo $radm['foto']; ?>" alt="nopic" />
+                                                            </a>
+                                                        </div>
+                                                        <div class="content">
+                                                            <h5 class="name">
+                                                                <a href="#"><?php echo $radm['uname']; ?></a>
+                                                            </h5>
+                                                            <span class="email"><?php echo $radm['email']; ?></span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="account-dropdown__body">
+                                                        <div class="account-dropdown__item">
+                                                            <a href="?page=adm&amp;uname=<?php echo $radm['uname']; ?>">
+                                                                <i class="zmdi zmdi-account"></i>Akun</a>
+                                                        </div>
+                                                    </div><?php } ?>
+                                                <div class="account-dropdown__footer">
+                                                    <a href="logout.php">
+                                                        <i class="zmdi zmdi-power"></i>Logout</a>
                                                 </div>
-                                            </div><?php } ?>
-                                            <div class="account-dropdown__footer">
-                                                <a href="logout.php">
-                                                    <i class="zmdi zmdi-power"></i>Logout</a>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
                                 </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -396,13 +398,13 @@ include 'koneksi.php';
             <div class="main-content">
                 <div class="section__content section__content--p10">
                     <div class="container-fluid">
-                            <div class="col-lg-12">
+                        <div class="col-lg-12">
 
-                                    <?php 
-                                        include 'load_file.php';
-                                        ?>
+                            <?php
+                            include 'load_file.php';
+                            ?>
 
-                            </div>                   
+                        </div>
 
                         <div class="row">
                             <div class="col-md-12">
@@ -419,8 +421,8 @@ include 'koneksi.php';
         </div>
 
     </div>
-<!-- jQuery 3 -->
-<script src="assets/js/jquery.min.js"></script> <!-- untuk Pemanggilan data penduduk -->
+    <!-- jQuery 3 -->
+    <script src="assets/js/jquery.min.js"></script> <!-- untuk Pemanggilan data penduduk -->
 
     <!-- Jquery JS-->
     <!-- <script src="vendor/jquery-3.2.1.min.js"></script>--><!-- Tabrakan dengan Jquery panggil data penduduk-->

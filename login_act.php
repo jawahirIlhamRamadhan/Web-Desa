@@ -23,7 +23,7 @@ if ($_SESSION['level']=='admin'){
 } else{
  session_destroy();
 
- echo "<script>alert('Username atau Password salah !'); window.location = 'index.php'</script>"; 
+ echo "<script>alert('Username atau Password salah !'); window.location = 'login.php'</script>"; 
 }
  ?>
  
